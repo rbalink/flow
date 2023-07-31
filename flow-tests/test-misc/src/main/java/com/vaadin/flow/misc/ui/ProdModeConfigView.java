@@ -38,5 +38,6 @@ public class ProdModeConfigView extends Div {
         devToolsEnabled.setId("devToolsEnabled");
 
         add(productionMode, devModeLiveReloadEnabled, devToolsEnabled);
+        //NEW TEST TEXT
     }
 }
