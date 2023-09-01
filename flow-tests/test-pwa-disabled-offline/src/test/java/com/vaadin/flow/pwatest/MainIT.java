@@ -56,6 +56,7 @@ public class MainIT extends ChromeDeviceTest {
                                 + "navigator.serviceWorker.getRegistration('fake-sw.js').then((registration) => {"
                                 + "  done(!!registration);" + "});"));
     }
+    ///TESTSETSET
 
     @Override
     protected String getTestPath() {

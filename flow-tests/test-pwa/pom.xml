@@ -72,6 +72,21 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+				<groupId>com.tub</groupId>
+				<artifactId>cbts-maven-plugin</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+				<configuration>
+					
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>cbts_prototype</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
         </plugins>
     </build>
 
