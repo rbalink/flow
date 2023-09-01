@@ -24,6 +24,3 @@ import com.vaadin.flow.theme.Theme;
 @PWA(name = "Project Base for Vaadin", shortName = "Project Base")
 public class AppShell implements AppShellConfigurator {
 }
-
-//TEST
-
