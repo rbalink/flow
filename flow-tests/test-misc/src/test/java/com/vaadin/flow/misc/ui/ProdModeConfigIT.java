@@ -57,3 +57,4 @@ public class ProdModeConfigIT extends ChromeBrowserTest {
                 findElements(By.tagName("vaadin-dev-tools")).isEmpty());
     }
 }
+//TEST HIER STEHT WAS

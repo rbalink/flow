@@ -61,4 +61,6 @@ public class MiscelaneousIT extends ChromeBrowserTest {
                 "Missing/invalid icons at startup should be handled with error log.",
                 isElementPresent(By.id(MiscelaneousView.TEST_VIEW_ID)));
     }
+    
+    //grosseaenderungen
 }
