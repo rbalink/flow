@@ -42,9 +42,6 @@
 				<groupId>com.tub</groupId>
 				<artifactId>cbts-maven-plugin</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
-				<configuration>
-					
-				</configuration>
 				<executions>
 					<execution>
 						<goals>
@@ -52,6 +49,9 @@
 						</goals>
 					</execution>
 				</executions>
+				<configuration>
+					<mode>sideeffect</mode>
+				</configuration>
 			</plugin>
         </plugins>
     </build>
