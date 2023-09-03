@@ -26,6 +26,7 @@ import com.vaadin.flow.uitest.servlet.ViewTestLayout;
 @JavaScript("/externalErrorTrigger.js")
 public class DebugWindowErrorHandlingView extends Div {
 
+	static final String TEST = "";
     static final String EXEC_JS_EXCEPTION_ID = "execJsException";
     static final String CLIENT_SIDE_EXCEPTION_ID = "clientSideException";
     static final String CLIENT_SIDE_ERROR_ID = "clientSideError";

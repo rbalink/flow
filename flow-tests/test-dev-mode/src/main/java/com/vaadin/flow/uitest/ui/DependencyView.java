@@ -71,7 +71,7 @@ public class DependencyView extends AbstractDivView {
     protected void onAttach(AttachEvent attachEvent) {
         super.onAttach(attachEvent);
         UI ui = attachEvent.getUI();
-
+        int o = 5;
         getPage().addStyleSheet("/test-files/css/allred.css");
         getPage().addJavaScript(
                 "/frontend/test-files/js/body-click-listener.js");

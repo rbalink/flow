@@ -32,7 +32,7 @@ import com.vaadin.flow.server.startup.ApplicationConfiguration;
 import com.vaadin.flow.uitest.servlet.ViewTestLayout;
 
 @Route(value = "com.vaadin.flow.uitest.ui.FeatureView", layout = ViewTestLayout.class)
-public class FeatureView extends Div {
+public class FeatureView extends Div, ChromeBrowserTest {
 
     private H2 h2;
 

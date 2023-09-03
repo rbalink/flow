@@ -36,6 +36,7 @@ public class ViewTestLayout extends Div
     private Element element = ElementFactory.createDiv();
     private Element viewContainer = ElementFactory.createDiv();
     private Element viewSelect = ElementFactory.createSelect();
+int i = 0;
 
     @Route(value = "", layout = ViewTestLayout.class)
     public static class BaseNavigationTarget extends Div {

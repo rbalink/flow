@@ -56,6 +56,7 @@ public class ChromeBrowserTest extends ViewOrUITest {
 
     private static InetAddress ipv4All;
     private static InetAddress ipv6All;
+//TEST
     static {
         try {
             ipv4All = InetAddress.getByName("0.0.0.0");

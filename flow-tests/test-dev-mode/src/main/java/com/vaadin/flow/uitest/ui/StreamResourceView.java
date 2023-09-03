@@ -27,6 +27,7 @@ import com.vaadin.flow.uitest.servlet.ViewTestLayout;
 
 @Route(value = "com.vaadin.flow.uitest.ui.StreamResourceView", layout = ViewTestLayout.class)
 public class StreamResourceView extends Div {
+	int i = 5;
 
     public StreamResourceView() {
         StreamResource resource = new StreamResource("file name",
